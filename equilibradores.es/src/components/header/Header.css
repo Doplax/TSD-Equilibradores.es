@@ -1,0 +1,24 @@
+
+
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+}
+ul {
+    display: flex;
+    justify-content: right;
+    
+ }
+
+ .logo_image {
+    display: flex;
+    justify-content: left;
+ }
+
+ .menu li{
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: red;
+ }
