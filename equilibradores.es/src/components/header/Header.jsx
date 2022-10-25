@@ -2,14 +2,23 @@ import "./Header.css"
 
 
 export default function Header(prop){
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+    const toggle = document.getElementsByClassName("toggle");
+    const menu = document.
+
+
+
+
+
+
+
+
     return(
         <nav>
             <ul className="menu">
                 <li className="logo"><a href="w">Creative Mind </a> </li>
                 <li className="item"><a href="w">Home </a> </li>
                 <li className="item"><a href="w">About</a> </li>
-                <li className="item has-sumbenu">
+                <li className="item has-sub-menu">
                     <a tabIndex={0}>Services</a>
                     <ul className="sub-menu">
                         <li className="sub-item"> <a href="w">Design</a></li>
@@ -18,7 +27,7 @@ export default function Header(prop){
                         <li className="sub-item"> <a href="w">Copywriting</a></li>
                     </ul>
                 </li>
-                <li className="item has-submenu">
+                <li className="item has-sub-menu">
                     <a tabIndex={0}>Plans</a>
                     <ul className="sub-menu">
                         <li className="sub-item"><a href="w"> Freelancer</a></li>
