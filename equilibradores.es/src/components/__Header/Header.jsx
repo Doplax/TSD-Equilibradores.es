@@ -1,11 +1,28 @@
+// TUTORIAL: https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535
 import "./Header.css"
 
 
 export default function Header(prop){
-    const toggle = document.getElementsByClassName("toggle");
-    const menu = document.
+    
+    // const toggle = document.getElementsByClassName("toggle");
+    // const menu = document.getElementsByClassName("menu");
 
+    // // Toggle Mobile Menu
+    // function toggleMenu() {
+    //     if (menu.classList.contains("active")){
+    //         menu.classList.remove("active");
 
+    //         // adds the menu (hamburger) icon
+    //         toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>"
+    //     } else {
+    //         menu.classList.add("active");
+
+    //         // Adds the close (x) icon
+    //         toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>"
+    //     }
+    // }
+
+    // toggle.addEventListener("click",toggleMenu, false)
 
 
 

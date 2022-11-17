@@ -1,0 +1,48 @@
+:root {
+   --background-header-color:#3388BB;
+}
+
+
+* {
+   box-sizing: border-box;     /* Sirve para que los elementos no se salgan del contenedor padre */
+
+}
+.header {
+    background-color: var(--background-header-color);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+width: 100%;
+
+}
+
+.header__menu {
+   display: flex;
+   justify-content: right;   
+}
+
+.header__logo {
+   width: 100%;
+}
+
+.header__menu li {
+   padding-right: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.header__menu li a {
+   color: white;
+   text-decoration: none;
+}
+
+@media (max-width: 400px) {   
+
+   .header__logo{
+      display: none;
+   }
+
+   .header__menu ul {
+      display: none;
+   }
+}
