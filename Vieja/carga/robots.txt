@@ -1,3 +1,0 @@
-User-agent: *
-Crawl-delay: 60
-Sitemap: http://www.equilibradores.es/sitemap.xml
